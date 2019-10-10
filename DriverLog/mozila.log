@@ -1,0 +1,22 @@
+1570670107738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mir\\AppData\\Local\\Temp\\rust_mozprofile.P2RIBberYto8"
+1570670114044	Marionette	INFO	Listening on port 61342
+1570670114348	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570670114382	Marionette	DEBUG	[6442450945] Frame script loaded
+1570670114462	Marionette	DEBUG	[6442450945] Frame script registered
+1570670114926	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1570670116073	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1570670117581	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portfolio.rediff.com/portfolio-login
+1570670118481	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portfolio.rediff.com/portfolio-login
+1570670118957	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1570670119915	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1570670135270	Marionette	INFO	Stopped listening on port 61342
+[Child 6376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10452, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 10452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, l[Child 13340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

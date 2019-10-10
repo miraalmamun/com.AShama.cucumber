@@ -1,0 +1,247 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 241692000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login in App",
+        "description": "",
+        "id": "login-into-rediff-money-app;login-in-app;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1173896200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4363602900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2197294200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16357561600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login inside application",
+            "match": {
+              "location": "ApplicationSteps.login(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "miraalmamun"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Mimo949658"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55932600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 16
+                }
+              ],
+              "location": "ApplicationSteps.login_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1582700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login in App",
+        "description": "",
+        "id": "login-into-rediff-money-app;login-in-app;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1963684300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7544796500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Mozilla",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3782993100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16654358500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login inside application",
+            "match": {
+              "location": "ApplicationSteps.login(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "miraalmamun"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Mimo949658"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43089600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 16
+                }
+              ],
+              "location": "ApplicationSteps.login_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login into Rediff Money App",
+    "description": "",
+    "id": "login-into-rediff-money-app",
+    "keyword": "Feature",
+    "uri": "./Features/Login.feature",
+    "tags": []
+  }
+]
